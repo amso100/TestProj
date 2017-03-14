@@ -5,7 +5,7 @@ typedef struct node_t* Node;
 
 //Creates a new node with integer value.
 //Returns NULL if failed.
-Node nodeCreate(int x);
+Node nodeCreate2(int x);
 
 //Destroys given node.
 void nodeDestroy(Node n);
