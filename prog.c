@@ -19,6 +19,9 @@ int main() {
 		iter = nodeGetNext(iter);
 	}
 	printf("Finished printing nodes.");
-	//Add code for destroying nodes.
+	nodeDestroy(first);
+	nodeDestroy(next1);
+	nodeDestroy(next2);
+	nodeDestroy(next3);
 	return 0;
 }
