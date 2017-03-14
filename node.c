@@ -1,11 +1,11 @@
-#include node.h
+#include "node.h"
 #include <stdlib.h>
 #include <stdio.h>
 
 struct node_t {
 	int data;
 	Node next;
-}
+};
 
 Node nodeCreate(int x) {
 	Node create = malloc(sizeof(struct node_t));
